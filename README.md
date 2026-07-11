@@ -49,8 +49,11 @@ This simulator was developed as part of the following research paper:
 1. Download PLATEAU 3D city data for your target city from the [PLATEAU official site](https://www.mlit.go.jp/plateau/)
 2. Open `DroneSimulator/` in Unity 2022.3 LTS
 3. Import the downloaded PLATEAU data using PLATEAU SDK for Unity
-4. Open `TitleScene` and press Play
-5. Select **Keyboard Mode** for single-drone manual operation, or **TCP Mode** for multi-drone control via the Python client
+4. Build a Unity scene using the imported city model
+5. Open `TitleScene` and press Play
+6. Select **Keyboard Mode** for single-drone manual operation, or **TCP Mode** for multi-drone control via the Python client
+
+> **Note:** Unity scene files are not included in this repository because they contain embedded PLATEAU city data that exceeds GitHub's file size limit. You will need to build your own scene after importing PLATEAU data.
 
 > **Note:** In TCP Mode, enable **Run In Background** in Unity (Edit → Project Settings → Player → Resolution and Presentation) to prevent the server from pausing when Unity loses focus.
 
