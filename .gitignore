@@ -1,0 +1,21 @@
+# Unity
+DroneSimulator/Library/
+DroneSimulator/Temp/
+DroneSimulator/Logs/
+DroneSimulator/obj/
+DroneSimulator/UserSettings/
+DroneSimulator/Builds/
+DroneSimulator/*.csproj
+DroneSimulator/*.sln
+DroneSimulator/Assets/Scenes/
+
+# Python build artifacts
+LogVisualizer/dist/
+LogVisualizer/__pycache__/
+LogVisualizer/*.pyc
+TCPClient/dist/
+TCPClient/__pycache__/
+TCPClient/*.pyc
+
+# macOS
+.DS_Store

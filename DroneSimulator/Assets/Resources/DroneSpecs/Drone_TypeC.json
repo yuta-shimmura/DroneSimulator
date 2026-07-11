@@ -1,0 +1,43 @@
+{
+  "modelId": "Drone_TypeC",
+  "displayName": "Drone Type C",
+  "note": "Heavy-duty cargo type. High wind resistance, long endurance, slow speed.",
+  "physics": {
+    "mass": 3.5,
+    "maxThrust": 60.0,
+    "moveForce": 25.0,
+    "yawTorque": 8.0,
+    "drag": 0.4,
+    "angularDrag": 4.0,
+    "tiltAngle": 15.0,
+    "tiltSpeed": 3.0,
+    "maxHorizontalSpeed": 12.0,
+    "maxVerticalSpeed": 4.0,
+    "bounceDamping": 0.6,
+    "colliderRadius": 0.8,
+    "windResistanceFactor": 0.5,
+    "maxOperatingWindSpeedMs": 20.0
+  },
+  "battery": {
+    "capacitySeconds": 3600,
+    "idleConsumptionRate": 0.4,
+    "fullThrottleConsumptionRate": 1.0
+  },
+  "altitudeHold": {
+    "defaultEnabled": true,
+    "pidKp": 2.5,
+    "pidKi": 0.12,
+    "pidKd": 0.6
+  },
+  "sensor": {
+    "detectionRangeM": 60.0,
+    "detectionFOVDeg": 360.0,
+    "useLineOfSight": true,
+    "positionNoiseSigma": 0.08,
+    "velocityNoiseSigma": 0.04,
+    "altitudeNoiseSigma": 0.04
+  },
+  "communication": {
+    "broadcastIntervalMs": 50
+  }
+}

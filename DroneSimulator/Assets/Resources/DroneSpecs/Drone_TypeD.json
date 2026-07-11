@@ -1,0 +1,43 @@
+{
+  "modelId": "Drone_TypeD",
+  "displayName": "Drone Type D",
+  "note": "High-speed racing type. Maximum speed, poor wind resistance, short battery life.",
+  "physics": {
+    "mass": 0.6,
+    "maxThrust": 28.0,
+    "moveForce": 22.0,
+    "yawTorque": 6.0,
+    "drag": 0.35,
+    "angularDrag": 2.5,
+    "tiltAngle": 28.0,
+    "tiltSpeed": 8.0,
+    "maxHorizontalSpeed": 28.0,
+    "maxVerticalSpeed": 10.0,
+    "bounceDamping": 0.45,
+    "colliderRadius": 0.4,
+    "windResistanceFactor": 1.5,
+    "maxOperatingWindSpeedMs": 8.0
+  },
+  "battery": {
+    "capacitySeconds": 1200,
+    "idleConsumptionRate": 0.5,
+    "fullThrottleConsumptionRate": 1.0
+  },
+  "altitudeHold": {
+    "defaultEnabled": true,
+    "pidKp": 1.5,
+    "pidKi": 0.08,
+    "pidKd": 0.3
+  },
+  "sensor": {
+    "detectionRangeM": 40.0,
+    "detectionFOVDeg": 360.0,
+    "useLineOfSight": true,
+    "positionNoiseSigma": 0.2,
+    "velocityNoiseSigma": 0.1,
+    "altitudeNoiseSigma": 0.1
+  },
+  "communication": {
+    "broadcastIntervalMs": 50
+  }
+}

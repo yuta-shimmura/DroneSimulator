@@ -1,0 +1,43 @@
+{
+  "modelId": "Drone_TypeA",
+  "displayName": "Drone Type A",
+  "note": "Modeled after DJI Mavic 3",
+  "physics": {
+    "mass": 0.895,
+    "maxThrust": 20.0,
+    "moveForce": 15.0,
+    "yawTorque": 5.0,
+    "drag": 0.5,
+    "angularDrag": 3.0,
+    "tiltAngle": 20.0,
+    "tiltSpeed": 5.0,
+    "maxHorizontalSpeed": 19.0,
+    "maxVerticalSpeed": 6.0,
+    "bounceDamping": 0.5,
+    "colliderRadius": 0.55,
+    "windResistanceFactor": 0.8,
+    "maxOperatingWindSpeedMs": 15.0
+  },
+  "battery": {
+    "capacitySeconds": 2760,
+    "idleConsumptionRate": 0.3,
+    "fullThrottleConsumptionRate": 1.0
+  },
+  "altitudeHold": {
+    "defaultEnabled": true,
+    "pidKp": 2.0,
+    "pidKi": 0.1,
+    "pidKd": 0.5
+  },
+  "sensor": {
+    "detectionRangeM": 50.0,
+    "detectionFOVDeg": 360.0,
+    "useLineOfSight": true,
+    "positionNoiseSigma": 0.1,
+    "velocityNoiseSigma": 0.05,
+    "altitudeNoiseSigma": 0.05
+  },
+  "communication": {
+    "broadcastIntervalMs": 50
+  }
+}

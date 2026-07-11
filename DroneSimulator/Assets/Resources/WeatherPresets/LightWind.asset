@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df90575b3560844b8a3603601a4bffab, type: 3}
+  m_Name: LightWind
+  m_EditorClassIdentifier: 
+  presetName: Light Wind
+  description: Gentle steady breeze
+  layers:
+  - {fileID: 11400000, guid: 0ddb03513edb04002b7a4b31d9f24294, type: 2}
+  - {fileID: 11400000, guid: df578af2ee035408a9a24d802fcc6576, type: 2}
+  - {fileID: 11400000, guid: ff614f9bf38854dd9ac2344713f752c9, type: 2}

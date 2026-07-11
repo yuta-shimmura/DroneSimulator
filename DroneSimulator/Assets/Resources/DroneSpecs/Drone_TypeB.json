@@ -1,0 +1,43 @@
+{
+  "modelId": "Drone_TypeB",
+  "displayName": "Drone Type B",
+  "note": "Modeled after DJI Mini 4 Pro",
+  "physics": {
+    "mass": 0.249,
+    "maxThrust": 12.0,
+    "moveForce": 9.0,
+    "yawTorque": 3.5,
+    "drag": 0.6,
+    "angularDrag": 3.5,
+    "tiltAngle": 18.0,
+    "tiltSpeed": 4.0,
+    "maxHorizontalSpeed": 16.0,
+    "maxVerticalSpeed": 5.0,
+    "bounceDamping": 0.4,
+    "colliderRadius": 0.35,
+    "windResistanceFactor": 1.2,
+    "maxOperatingWindSpeedMs": 10.0
+  },
+  "battery": {
+    "capacitySeconds": 2340,
+    "idleConsumptionRate": 0.25,
+    "fullThrottleConsumptionRate": 1.0
+  },
+  "altitudeHold": {
+    "defaultEnabled": true,
+    "pidKp": 1.8,
+    "pidKi": 0.1,
+    "pidKd": 0.4
+  },
+  "sensor": {
+    "detectionRangeM": 30.0,
+    "detectionFOVDeg": 360.0,
+    "useLineOfSight": true,
+    "positionNoiseSigma": 0.15,
+    "velocityNoiseSigma": 0.08,
+    "altitudeNoiseSigma": 0.08
+  },
+  "communication": {
+    "broadcastIntervalMs": 50
+  }
+}
