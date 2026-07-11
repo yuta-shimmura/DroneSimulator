@@ -11,9 +11,12 @@ DroneSimulator/Assets/Scenes/
 
 # Python build artifacts
 LogVisualizer/dist/
+LogVisualizer/build/
+LogVisualizer/exports/
 LogVisualizer/__pycache__/
 LogVisualizer/*.pyc
 TCPClient/dist/
+TCPClient/build/
 TCPClient/__pycache__/
 TCPClient/*.pyc
 
