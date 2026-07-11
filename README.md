@@ -59,6 +59,11 @@ This simulator was developed as part of the following research paper:
 
 ### 2. TCPClient (Python)
 
+1. Install dependencies:
+```bash
+pip install matplotlib
+```
+2. Run the client:
 ```bash
 cd TCPClient
 python client.py
@@ -68,6 +73,11 @@ Enter the IP address and port, add drones, and start autonomous flight.
 
 ### 3. LogVisualizer (Python)
 
+1. Install dependencies:
+```bash
+pip install matplotlib
+```
+2. Run the visualizer:
 ```bash
 cd LogVisualizer
 python visualizer.py
