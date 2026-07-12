@@ -9,11 +9,13 @@ This simulator was developed as part of the following research paper:
 
 ## Repository Structure
 
-| Folder | Description |
+| File / Folder | Description |
 |---|---|
 | `DroneSimulator/` | Unity project (main simulator) |
 | `LogVisualizer/` | Flight log visualization tool (Python) |
 | `TCPClient/` | Drone control client application (Python) |
+| `SETUP.md` | Step-by-step setup instructions (Unity, PLATEAU SDK, Python tools) — written in Japanese |
+| `SPEC.md` | Detailed system specifications and implementation notes — written in Japanese |
 
 ---
 
@@ -43,6 +45,8 @@ This simulator was developed as part of the following research paper:
 ---
 
 ## Getting Started
+
+> For detailed setup instructions, see [SETUP.md](SETUP.md). For system specifications and implementation details, see [SPEC.md](SPEC.md).
 
 ### 1. DroneSimulator (Unity)
 
